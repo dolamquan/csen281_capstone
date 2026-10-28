@@ -1,0 +1,208 @@
+﻿Filename,Variable,Units,Description, Domain Value,Domain Value Description
+\Data\FPA_FOD_20260615 [Fires],FOD_ID,,Unique numeric record identifier.,,
+\Data\FPA_FOD_20260615 [Fires],FPA_ID,,Unique identifier that contains information necessary to track back to the original record in the source dataset.,,
+\Data\FPA_FOD_20260615 [Fires],SOURCE_SYSTEM_TYPE,,Type of source database or system that the record was drawn from.,FED,Federal
+\Data\FPA_FOD_20260615 [Fires],SOURCE_SYSTEM_TYPE,,Type of source database or system that the record was drawn from.,NONFED,Nonfederal
+\Data\FPA_FOD_20260615 [Fires],SOURCE_SYSTEM_TYPE,,Type of source database or system that the record was drawn from.,INTERAGCY,Interagency
+\Data\FPA_FOD_20260615 [Fires],SOURCE_SYSTEM,,Name of or other identifier for source database or system that the record was drawn from. See \Supplements\FPA_FOD_source_list.pdf for a list of sources and their identifier and Short (2014) for additional source information.,,
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,BIA,Bureau of Indian Affairs
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,BLM,Bureal of Land Management
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,BOR,Bureau of Reclamation
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,DOD,Department of Defense
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,DOE,Department of Energy
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,FS,Forest Service
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,FWS,Fish and Wildlife Service
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,IA,Interagency Organization
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,NPS,National Park Service
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,ST/C&L,"State, County, or Local Organization"
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_AGENCY,,Active National Wildlife Coordinating Group (NWCG) Unit Identifier for the agency preparing the fire report.,TRIBE,Tribal Organization
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_UNIT_ID,,Active NWCG Unit Identifier for the unit preparing the fire report.,,
+\Data\FPA_FOD_20260615 [Fires],NWCG_REPORTING_UNIT_NAME,,Active NWCG Unit Name for the unit preparing the fire report.,,
+\Data\FPA_FOD_20260615 [Fires],SOURCE_REPORTING_UNIT,,"Code for the agency unit preparing the fire report, based on code/name in the source dataset.",,
+\Data\FPA_FOD_20260615 [Fires],SOURCE_REPORTING_UNIT_NAME,,"Name of reporting agency unit preparing the fire report, based on code/name in the source dataset.",,
+\Data\FPA_FOD_20260615 [Fires],LOCAL_FIRE_REPORT_ID,,Number or code that uniquely identifies an incident report for a particular reporting unit and a particular calendar year.,,
+\Data\FPA_FOD_20260615 [Fires],LOCAL_INCIDENT_ID,,Number or code that uniquely identifies an incident for a particular local fire management organization within a particular calendar year.,,
+\Data\FPA_FOD_20260615 [Fires],FIRE_CODE,,Code used within the interagency wildland fire community to track and compile cost information for emergency fire suppression expenditures (https://www.firecode.gov/).,,
+\Data\FPA_FOD_20260615 [Fires],FIRE_NAME,,"Name of the incident, from the fire report (primary) or ICS-209 report (secondary).",,
+\Data\FPA_FOD_20260615 [Fires],ICS_209_PLUS_INCIDENT_JOIN_ID,,Primary identifier needed to join into operational situation reporting data for the incident in the ICS-209-PLUS dataset.,,
+\Data\FPA_FOD_20260615 [Fires],ICS_209_PLUS_COMPLEX_JOIN_ID,,"If part of a complex, secondary identifier potentially needed to join to operational situation reporting data for the incident in the ICS-209-PLUS dataset.",,
+\Data\FPA_FOD_20260615 [Fires],MTBS_ID,,"Incident identifier, from the Monitoring Trends in Burn Severity (MTBS) perimeter dataset.",,
+\Data\FPA_FOD_20260615 [Fires],MTBS_FIRE_NAME,,"Name of the incident, from the MTBS perimeter dataset.",,
+\Data\FPA_FOD_20260615 [Fires],COMPLEX_NAME,,"Name of the complex under which the fire was ultimately managed, when discernible.",,
+\Data\FPA_FOD_20260615 [Fires],FIRE_YEAR,,Calendar year in which the fire was discovered or confirmed to exist.,,
+\Data\FPA_FOD_20260615 [Fires],DISCOVERY_DATE,,Date on which the fire was discovered or confirmed to exist.,,
+\Data\FPA_FOD_20260615 [Fires],DISCOVERY_DOY,,Day of year on which the fire was discovered or confirmed to exist.,,
+\Data\FPA_FOD_20260615 [Fires],DISCOVERY_TIME,,Time of day that the fire was discovered or confirmed to exist.,,
+\Data\FPA_FOD_20260615 [Fires],NWCG_CAUSE_CLASSIFICATION,,Broad classification of the reason the fire occurred,Human,Human-caused fire
+\Data\FPA_FOD_20260615 [Fires],NWCG_CAUSE_CLASSIFICATION,,Broad classification of the reason the fire occurred,Natural,Natural-caused fire
+\Data\FPA_FOD_20260615 [Fires],NWCG_CAUSE_CLASSIFICATION,,Broad classification of the reason the fire occurred,Missing data/not specified/undetermined,"Cause of the fire is missing, not specified, or underdetermined"
+\Data\FPA_FOD_20260615 [Fires],NWCG_GENERAL_CAUSE,,Event or circumstance that started a fire or set the stage for its occurrence.,,
+\Data\FPA_FOD_20260615 [Fires],NWCG_CAUSE_AGE_CATEGORY,,"If cause attributed to children (ages 0-12) or adolescents (13-17), the value for this data element is set to Minor; otherwise null.",Minor,"Fire caused by a minor, defined as: children (ages 0-12) or adolescents (13-17)"
+\Data\FPA_FOD_20260615 [Fires],NWCG_CAUSE_AGE_CATEGORY,,"If cause attributed to children (ages 0-12) or adolescents (13-17), the value for this data element is set to Minor; otherwise null.",Null,Fire not caused by a minor
+\Data\FPA_FOD_20260615 [Fires],CONT_DATE,,"Date on which the fire was declared contained or otherwise controlled (mm/dd/yyyy where mm=month, dd=day, and yyyy=year).",,
+\Data\FPA_FOD_20260615 [Fires],CONT_DOY,,Day of year (1-366) on which the fire was declared contained or otherwise controlled.,,
+\Data\FPA_FOD_20260615 [Fires],CONT_TIME,,"Time of day that the fire was declared contained or otherwise controlled (hhmm where hh=hour, mm=minutes).",,
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE,acres,The estimate of acres within the final perimeter of the fire.,,
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,A,Greater than 0 but less than or equal to 0.25 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,B,0.26-9.9 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,C,10.0-99.9 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,D,100-299 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,E,300 to 999 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,F,1000 to 4999 acres
+\Data\FPA_FOD_20260615 [Fires],FIRE_SIZE_CLASS,,Code for fire size based on the number of acres within the final fire perimeter.,G,5000 acres or greater
+\Data\FPA_FOD_20260615 [Fires],LATITUDE,decimal degrees,Latitude (NAD 83) for point location (origin) of the fire (decimal degrees).,,
+\Data\FPA_FOD_20260615 [Fires],LONGITUDE,decimal degrees,Longitude (NAD 83) for point location (origin) of the fire (decimal degrees).,,
+\Data\FPA_FOD_20260615 [Fires],OWNER_DESCR,,Name of primary owner or entity responsible for managing the land at the point of origin of the fire at the time of the incident.,,
+\Data\FPA_FOD_20260615 [Fires],STATE,,"Two-letter alphabetic code for the state in which the fire burned (or originated), based on the nominal designation in the fire report (not from a spatial overlay).",,
+\Data\FPA_FOD_20260615 [Fires],COUNTY,,"County, or equivalent, in which the fire burned (or originated), based on nominal designation in the fire report (not from a spatial overlay).",,
+\Data\FPA_FOD_20260615 [Fires],FIPS_CODE,,"Five-digit code from the Federal Information Process Standards (FIPS) publication 6-4 for representation of counties and equivalent entities, based on the nominal designation in the fire report (not from a spatial overlay).",,
+\Data\FPA_FOD_20260615 [Fires],FIPS_NAME,,"County name from the FIPS publication 6-4 for representation of counties and equivalent entities, based on the nominal designation in the fire report (not from a spatial overlay).",,
+,,,,,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],UnitId,,Unique unit identifier assigned by the National Wildfire Coordinating Group (NWCG).,,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,AK,Alaska
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,CA,California
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,EA,Eastern Area
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,CB,Great Basin
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,IN,International
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,NA,National
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,NR,Northern Rockies
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,NW,Northwest
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,RM,Rocky Mountain
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,SA,Southern Area
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GeographicArea,,Two-letter code for the geographic area in which the unit is located.,SW,Southwest
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,AUVIVIIC,Australasian Fire and Emergency Service Authorities
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,CAMBCIFC,Canadian Interagency Forest Fire Centre
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USAKCC,Alaska Interagency Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USCAONCC,Northern California Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USCAOSCC,Southern California Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USCORMC,Rocky Mountain Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USGASAC,Southern Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USIDNIC,National Interagency Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USMTNRC,Northern Rockies Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USNMSWC,Southwest Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USORNWC,Northwest Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USUTGBC,Great Basin Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],GACC,,Six- to eight-letter code for the Geographic Area Coordination Center in which the unit is located or primarily affiliated with.,USWIEACC,Eastern Area Coordination Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],WildlandRole,,Role of the unit within the wildland fire community.,,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],UnitType,,"Type of unit (e.g., federal, state, local).",,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,AK,Alaska
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,AL,Alabama
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,AR,Arkansas
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,AZ,Arizona
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,CA,California
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,CO,Colorado
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,CT,Connecticut
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DE,Delaware
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DHS,Department of Homeland Security
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DOC,Department of Commerce
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DOD,Department of Defense
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DOE,Department of Energy
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DOI,Department of Interior
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,DOL,Department of Labor
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,FL,Florida
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,GA,Georgia
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,HI,Hawaii
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,IA,Iowa
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,IA/GC,Non-Departmental Agencies
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,ID,Idaho
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,IL,Illinois
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,IN,Indiana
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,KS,Kansas
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,KY,Kentucky
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,LA,Louisiana
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MA,Massachusetts
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MD,Maryland
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,ME,Maine
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MI,Michigan
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MN,Minnesota
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MO,Missouri
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MS,Mississippi
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,MT,Montana
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NC,North Carolina
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NE,Nebraska
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NG,Non-Government
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NH,New Hampshire
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NJ,New Jersey
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NM,New Mexico
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NV,Nevada
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,NY,New York
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,OH,Ohio
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,OK,Oklahoma
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,OR,Oregon
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,PA,Pennsylvania
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,PR,Puerto Rico
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,RI,Rhode Island
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,SC,South Carolina
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,SD,South Dakota
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,ST/L,State or Local Government
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,TN,Tennessee
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,Tribe,Tribe
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,TX,Texas
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,USDA,Department of Agriculture
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,UT,Utah
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,VA,Virginia
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,VI,U.S. Virgin Islands
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,VT,Vermont
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,WA,Washington
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,WI,Wisconsin
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,WV,West Virginia
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Department,,Department (or state/territory) to which the unit belongs.,WY,Wyoming
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,AG,Air Guard
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,ANC,Alaska Native Corporation
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,BIA,Bureau of Indian Affairs
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,BLM,Bureau of Land Management
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,BOEM,Bureau of Ocean Energy Management
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,BOR,Bureau of Reclamation
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,BSEE,Bureau of Safety and Environmental Enforcement
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,C&L,County & Local
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,CDF,California Department of Forestry & Fire Protection
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DC,Department of Corrections
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DFE,Division of Forest Environment
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DFF,"Division of Forestry, Fire & State Lands"
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DFL,Division of Forests and Land
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DFR,Division of Forest Resources
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DL,Department of Lands
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DNR,Department of Natural Resources
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DNRC,Department of Natural Resources and Conservation
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DNRF,Department of Natural Resources Forest Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DOA,Department of Agriculture
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DOC,Department of Conservation
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DOE,Department of Energy
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DOF,Department of Forestry
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DVF,Division of Forestry
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,DWF,Division of Wildland Fire
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,EPA,Environmental Protection Agency
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FC,Forestry Commission
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FEMA,Federal Emergency Management Agency
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FFC,Bureau of Forest Fire Control
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FFP,Forest Fire Protection
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FFS,Forest Fire Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FR,Forest Rangers
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FS,Forest Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,FWS,Fish & Wildlife Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,HQ,Headquarters
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,JC,Job Corps
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,NBC,National Business Center
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,NG,National Guard
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,NNSA,National Nuclear Security Administration
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,NPS,National Park Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,NWS,National Weather Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,OES,Office of Emergency Services
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,PRI,Private
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,SF,State Forestry
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,SFS,State Forest Service
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,SP,State Parks
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,TNC,The Nature Conservancy
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USA,United States Army
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USACE,United States Army Corps of Engineers
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USAF,United States Air Force
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USCG,United States Coast Guard
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USGS,United States Geological Survey
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Agency,,Agency or bureau to which the unit belongs.,USN,United States Navy
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Country,,Country in which the unit is located.,AU,Australia
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Country,,Country in which the unit is located.,CA,Canada
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Country,,Country in which the unit is located.,NZ,New Zealand
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Country,,Country in which the unit is located.,US,United States
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],State,,Two-letter code for the state in which the unit is located (or primarily affiliated).,,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Code,,Unit code (follows state code to create UnitId).,,
+\Data\FPA_FOD_20260615 [NWCG_UnitIdActive_20200123],Name,,Unit name.,,

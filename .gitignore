@@ -1,0 +1,4 @@
+# Large datasets exceed GitHub's 100MB limit; download separately
+wildfire_7th_edition_data/Data/*.sqlite
+wildfire_7th_edition_data/*.zip
+.ipynb_checkpoints/
