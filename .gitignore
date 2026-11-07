@@ -4,3 +4,7 @@ wildfire_7th_edition_data/*.zip
 fire_station_data/*.zip
 fire_station_data/Data/
 .ipynb_checkpoints/
+
+# cached feature tables (rebuilt from the raw data by src/features.py)
+supervised_learning/cache/
+__pycache__/

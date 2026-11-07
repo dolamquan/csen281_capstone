@@ -1,0 +1,11 @@
+# Python 3.13 (conda env "csen281"): pip install -r requirements.txt
+numpy==2.2.1
+pandas==2.2.3
+pyarrow==25.0.0
+scipy==1.15.1
+scikit-learn==1.6.1
+lightgbm==4.6.0
+xgboost==3.2.0
+matplotlib==3.10.1
+seaborn==0.13.2
+jupyterlab
